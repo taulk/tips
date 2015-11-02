@@ -1,5 +1,13 @@
 # OS X
 
+## Must have
+* [iterm2](http://www.iterm2.com)
+* Xcode.
+* [oh-my-zsh](http://ohmyz.sh)
+* [homebrew](http://brew.sh) With tap.
+* [Sublime Text](brew install Caskroom/cask/sublime-text.)
+
+
 ## Display the Full Path in Mac Finder Window Titlebars
 [Ref](http://osxdaily.com/2007/12/02/show-full-directory-path-in-finder-window-title-bars/)
 Tested on OS X El Capitan
