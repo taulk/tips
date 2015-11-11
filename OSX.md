@@ -9,6 +9,10 @@
 * [Sublime Text](brew install Caskroom/cask/sublime-text.)
 * [Vimari](https://github.com/guyht/vimari)
 
+## System Preference
+
+Keyboard -> Shortcuts -> All controls(^F7)
+
 
 ## Display the Full Path in Mac Finder Window Titlebars
 [Ref](http://osxdaily.com/2007/12/02/show-full-directory-path-in-finder-window-title-bars/)
