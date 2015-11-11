@@ -6,6 +6,7 @@
 * [oh-my-zsh](http://ohmyz.sh)
 * [homebrew](http://brew.sh) With tap.
 * [Sublime Text](brew install Caskroom/cask/sublime-text.)
+* [Vimari](https://github.com/guyht/vimari)
 
 
 ## Display the Full Path in Mac Finder Window Titlebars
