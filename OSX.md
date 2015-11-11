@@ -3,6 +3,7 @@
 ## Must have
 * [iterm2](http://www.iterm2.com)
 * Xcode.
+* Xcode command line tool. (xcode-select --install)
 * [oh-my-zsh](http://ohmyz.sh)
 * [homebrew](http://brew.sh) With tap.
 * [Sublime Text](brew install Caskroom/cask/sublime-text.)
