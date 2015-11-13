@@ -21,3 +21,22 @@ Tested on OS X El Capitan
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 killall Finder
 ```
+
+## Build-in Apache & PHP
+
+in /etc/apache2/httpd.conf uncomment:
+
+```
+LoadModule php5_module libexec/apache2/libphp5.so
+```
+
+to enable php, restart Apache.
+
+```
+apachectl restart
+```
+
+update the 'DocumentRoot'.
+
+
+
