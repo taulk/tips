@@ -39,4 +39,13 @@ apachectl restart
 update the 'DocumentRoot'.
 
 
+## Togle proxy
 
+[Ref](https://stackoverflow.com/questions/4029471/how-to-you-toggle-on-and-off-a-web-proxy-in-os-x-from-the-command-line)
+
+```
+networksetup
+networksetup -getsocksfirewallproxy wi-fi
+networksetup -setsocksfirewallproxy wi-fi domain port
+networksetup -setsocksfirewallproxystate wi-fi on
+```
