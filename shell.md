@@ -20,3 +20,11 @@ find . -name 'pat' -exec cat {} \;
 find . -name 'pat' -print | xargs cat
 grep -R --include='**/*pat' '' *
 ```
+
+## Default argument
+
+[Ref](http://tldp.org/LDP/abs/html/parameter-substitution.html)
+
+```
+value=${1:-'default'}
+```
