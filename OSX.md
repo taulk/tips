@@ -49,3 +49,20 @@ networksetup -getsocksfirewallproxy wi-fi
 networksetup -setsocksfirewallproxy wi-fi domain port
 networksetup -setsocksfirewallproxystate wi-fi on
 ```
+
+## Defaults
+
+### Don't write .DS_Store to network stores. (Samba/FTP etc.)
+
+```
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+```
+
+## PHP warning pgsql.so
+
+[Ref](https://origin-discussions-us.apple.com/thread/7218739)
+[Ref](http://stackoverflow.com/questions/6588174/enabling-postgresql-support-in-php-on-mac-os-x)
+
+Solve by installing Server.app.
+
+
