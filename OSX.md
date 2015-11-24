@@ -65,4 +65,15 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
 Solve by installing Server.app.
 
+## URI encoding(%20 etc.) in filename
 
+[rename](https://github.com/ap/rename)
+[Ref](http://unix.stackexchange.com/questions/76500/how-to-remove-uri-encoding-from-file-names)
+[Ref](http://unix.stackexchange.com/questions/174129/replace-20-with-a-space-in-filenames)
+[Ref](http://unix.stackexchange.com/questions/159253/decoding-url-encoding-percent-encoding)
+
+```
+python -c "import sys, urllib as ul; print ul.unquote('$1');"
+brew install rename
+rename 'use URI::Escape; $_ = uri_unescape $_' filename
+```
