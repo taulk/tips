@@ -9,6 +9,12 @@
 * [Sublime Text](brew install Caskroom/cask/sublime-text.)
 * [Vimari](https://github.com/guyht/vimari)
 
+## Install Haskell ghci
+
+```
+brew install Caskroom/cask/haskell-platform
+```
+
 ## System Preference
 
 Keyboard -> Shortcuts -> All controls(^F7)
