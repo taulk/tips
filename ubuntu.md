@@ -21,3 +21,26 @@ to
 
 %sudo     ALL=(ALL:ALL) NOPASSWD: NOPASSWD: ALL
 ```
+
+## List installed app
+
+[Ref](http://askubuntu.com/questions/17823/how-to-list-all-installed-packages)
+
+```
+# all packages
+dpkg --get-selections
+# simply
+dpkg -l
+# expressly installed (not installed as dependencies)
+aptitude search '~i!~M'
+# using apt-mark
+apt-mark showauto
+apt-mark showmanual
+```
+
+a typical workflow [Ref](http://jeffhoogland.blogspot.com/2012/08/howto-clone-all-programs-installed-via.html)
+
+```
+dpkg -l | awk '/^ii/ { print $2 }' >package-list
+xargs apt-get install -y < package-list
+```
