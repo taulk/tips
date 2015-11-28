@@ -83,3 +83,11 @@ python -c "import sys, urllib as ul; print ul.unquote('$1');"
 brew install rename
 rename 'use URI::Escape; $_ = uri_unescape $_' filename
 ```
+
+## Brew fast
+
+```
+cd /usr/local && git remote set-url origin my_url
+brew update
+```
+
