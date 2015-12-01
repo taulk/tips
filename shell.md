@@ -28,3 +28,12 @@ grep -R --include='**/*pat' '' *
 ```
 value=${1:-'default'}
 ```
+
+## Curl
+
+```
+curl url
+curl -d "key=value" url
+curl -F "file=@filename;type=text/plain" url
+```
+
