@@ -102,3 +102,7 @@ chflags hidden ~/Library/
 
 Sol 1:
 Magic 'Option'
+
+## Disable safari from unzip downloaded file
+
+Preference->General->Uncheck 'Open "safe" files'
