@@ -91,3 +91,14 @@ cd /usr/local && git remote set-url origin my_url
 brew update
 ```
 
+## Show Library
+
+Sol 0:
+
+```
+chflags nohidden ~/Library/
+chflags hidden ~/Library/
+```
+
+Sol 1:
+Magic 'Option'
