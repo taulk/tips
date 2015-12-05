@@ -44,3 +44,13 @@ a typical workflow [Ref](http://jeffhoogland.blogspot.com/2012/08/howto-clone-al
 dpkg -l | awk '/^ii/ { print $2 }' >package-list
 xargs apt-get install -y < package-list
 ```
+
+## Refresh ip
+
+Typically when you access vbox when host's ip changed.
+
+```
+ifdown {eth0}
+ifup {eth0}
+/etc/init.d/networking restart
+```
