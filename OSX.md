@@ -106,3 +106,15 @@ Magic 'Option'
 ## Disable safari from unzip downloaded file
 
 Preference->General->Uncheck 'Open "safe" files'
+
+## Open
+
+```
+man 1 open
+open -a /Applications/TextEdit.app *.txt
+open http://www.apple.com
+ls | open -f
+open -h NSView
+open -a Xcode -h NSString.h
+```
+
