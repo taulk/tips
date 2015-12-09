@@ -54,3 +54,13 @@ ifdown {eth0}
 ifup {eth0}
 /etc/init.d/networking restart
 ```
+
+## Measure network traffic
+
+[Ref](http://serverfault.com/questions/107393/linux-how-to-measure-daily-montly-network-traffic)
+[Ref](http://humdi.net/vnstat/)
+[Ref](http://www.binarytides.com/linux-commands-monitor-network/)
+
+```
+vnstat
+```
