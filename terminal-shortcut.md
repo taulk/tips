@@ -11,3 +11,11 @@ ctrl + f # Move forward a char
 ctrl + r # Search history
 ctrl + l # Clear the screen
 ctrl + z # Suspend/Stop the command
+ctrl + y # Paste
+ctrl + h # Delete a char
+ctrl + n # Next command
+ctrl + p # Previous command
+
+cmd + d # Split
+cmd + shift + d # Split vertically
+cmd + [] # Next/Previous pane
