@@ -118,3 +118,13 @@ open -h NSView
 open -a Xcode -h NSString.h
 ```
 
+## Calendar
+
+Ambiguous syntax.
+
+```
+cal -m 2 # Feb
+cal 2 2012 # Feb, 2012
+cal 2012 # 2012
+cal 2 | open -f # show with TextEdit
+```
