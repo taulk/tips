@@ -64,3 +64,11 @@ ifup {eth0}
 ```
 vnstat
 ```
+
+## Chat with nc
+
+```
+man nc
+nc -l port
+nc ip port
+```
