@@ -35,5 +35,8 @@ value=${1:-'default'}
 curl url
 curl -d "key=value" url
 curl -F "file=@filename;type=text/plain" url
+curl -X GET url # GET, POST..
+curl -I url # only care about header
+curl -i url # also print response header
 ```
 
