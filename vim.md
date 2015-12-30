@@ -16,3 +16,9 @@ command W w !sudo tee % > /dev/null
 [Ref](https://github.com/spf13/spf13-vim/issues/773)
 
 install vim-nox
+
+## remove self
+
+```
+:call delete(expand('%'))
+```
