@@ -22,3 +22,14 @@ install vim-nox
 ```
 :call delete(expand('%'))
 ```
+
+## paste mode
+
+[vimcast](http://vimcasts.org/episodes/using-vims-paste-mode-with-the-system-paste-command/)
+[unimpaired.vim](https://github.com/tpope/vim-unimpaired)
+
+```
+:set paste
+// Do the paste
+:set nopaste
+```
