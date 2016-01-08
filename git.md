@@ -15,3 +15,10 @@ git fetch
 git log origin/master..master
 ```
 
+## Change commit time
+
+[Ref](http://stackoverflow.com/questions/454734/how-can-one-change-the-timestamp-of-an-old-commit-in-git)
+
+```
+git commit --amend --date="Wed Feb 16 14:00 2011 +0100"
+```
