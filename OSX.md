@@ -128,3 +128,9 @@ cal 2 2012 # Feb, 2012
 cal 2012 # 2012
 cal 2 | open -f # show with TextEdit
 ```
+
+## Disk usage
+
+Go to 'Preference-spotlight-privacy'.
+Add 'Macintosh HD'. After a while, remove it.
+Reboot.
