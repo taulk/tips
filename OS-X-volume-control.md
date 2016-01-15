@@ -27,3 +27,10 @@ set volume output volume (currentVolume + 5)
 Save as 'Application'.
 
 Bind a keyboard shortcut to the .app file.
+
+
+## Alfred
+
+[Ref](http://blog.yxwang.me/2013/08/adjusting-mac-volume-with-pc-keyboard/)
+[Ref](https://github.com/zellux/adjust-volume)
+
