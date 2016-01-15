@@ -1,5 +1,11 @@
 # Terminal shortcut
 
+```
+man readline # Key Bindings section
+```
+
+On mac, <ESC>- represent Meta key. (Also for emacs.)
+
 ctrl + a # Jump to the start of the line
 ctrl + e # Jump to the end of the line
 ctrl + k # Delete from cursor to EOL
