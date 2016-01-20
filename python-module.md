@@ -15,3 +15,7 @@ python -m json.tool
 python -m smtpd -n -c DebuggingServer localhost:25
 ```
 
+## Pydoc
+```
+python -m pydoc -p 8000
+```
